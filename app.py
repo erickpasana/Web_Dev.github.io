@@ -16,7 +16,7 @@ app.config["DEBUG"] = True
 
 # define the view using a function, which returns a string
 def hello_world():
-    return "Hello World! My 1st Web Application!"
+    return "Hello World! What is dynamic? This One..."
 
 # dynamic route
 @app.route("/test/<query>")

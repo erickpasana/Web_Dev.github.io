@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Use GET, not POST -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- <header>
+      <h1>Register</h1>
+    </header>
+    <nav>
+      <a href="http://www.google.com" >
+    </nav>
+    <footer>
+      <p>
+        Website made with love
+      </p>
+    </footer> -->
+    <form method="GET">
+      First Name: <input type="text" name="firstname" /><br />
+      Last Name: <input type="text" name="lastname" /><br />
+      Email: <input type="email" name="email" required /><br />
+      Password: <input type="password" name="password" min="6" required /><br />
+      Birthday: <input type="date" name="birthday" /><br />
+      Gender: <br />
+      <input type="radio" name="gender" value="Male" />Male<br />
+      <input type="radio" name="gender" value="Female" />Female<br />
+      <input type="radio" name="gender" value="Other" />Other<br /><br />
+      Pets: <br />
+      <input type="checkbox" name="Cat" />Cat<br />
+      <input type="checkbox" name="Dog" />Dog<br />
+      <input type="checkbox" name="Others" /> Others:
+      <input type="text" name="other_Pets" /><br />
+      Cars: <br />
+      <select name="cars">
+        <option value="volvo" name="Volvo" value="Volvo">Volvo</option>
+        <option value="audi" name="Audi" value="Audi">Audi</option>
+      </select>
+      <br /><br />
+      <input type="submit" value="Register" />
+      <input type="reset" />
+    </form>
+    <a href="htmlfile.html">
+      <h2>Back</h2>
+  </body>
+</html>
+
+<!-- ?firstname=Erick
+&lastname=Pasana
+&email=flpasana%40outlook.com
+&password=123456
+&birthday=2023-04-01
+&gender=on
+&dog=on -->
+
+<!-- ?firstname=Erick&lastname=Pasana&email=flpasana%40outlook.com&password=123456&birthday=2023-04-01&gender=Male&dog=dog -->

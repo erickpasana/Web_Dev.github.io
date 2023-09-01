@@ -1,0 +1,60 @@
+/* style.css */
+/* Selector {
+    Property: value;
+} */
+body {
+  background-image: url("backgroundimage2.png");
+  background-size: cover;
+}
+h2 {
+  color: rgb(53, 79, 0);
+  text-align: center;
+  border: 5px solid rgba(86, 119, 20, 0.5);
+  cursor: pointer;
+}
+
+/* p {
+  color: black;
+} */
+li {
+  list-style: none;
+  display: inline;
+}
+.webtext {
+  border: dashed 5px rgba(86, 119, 20, 1);
+}
+.akoa {
+  color: red;
+}
+#div1 {
+  background: rgba(0, 255, 255, 0.2);
+}
+#div2 {
+  background: rgba(212, 193, 106, 0.2);
+}
+header {
+  text-align: center;
+}
+p {
+  /* text-decoration: underline; */
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Poiret One", cursive;
+}
+/* p {
+  text-decoration: line-through;
+} */
+
+/* p {
+  text-transform: uppercase;
+} */
+img {
+  float: left;
+}
+footer {
+  text-align: center;
+  font-weight: bold;
+  clear: both;
+}

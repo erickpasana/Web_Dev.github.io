@@ -1,0 +1,19 @@
+h2 {
+  color: blue;
+}
+li {
+  display: inline;
+}
+header {
+  text-align: center;
+}
+/* .boxmodel {
+  border: 5px solid red;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 0px 20px;
+} */
+span {
+  font-size: 2em;
+  color: red;
+}
